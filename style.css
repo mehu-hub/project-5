@@ -193,3 +193,64 @@ header {
     font-weight: normal;
     font-size: 25px;
 }
+
+/* Section Four Syles */
+.some-facts{ 
+    text-align: center;
+    margin-top: 150px; 
+}
+.some-facts h2{
+    font-size: 45px;
+    margin: 0;
+}
+.some-facts p{
+    font-size: 16px;
+    color: #727272;
+}
+
+.section-four{
+    margin-top: 100px;
+}
+
+.facts-section{
+    display: flex;
+    gap: 125px;
+
+}
+.fact-box{ 
+    border-radius: 5px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    width: 240px;
+    height: 240px;
+    border: 2px solid orange;
+}
+.fact-img{
+    text-align: center;
+    width: 45px;
+    height: 45px;
+}
+.number{
+    font-size: 45px;
+    font-weight: 500;
+    margin: 0;
+}
+.title{
+    font-size: 20px;
+    color: #727272;
+    margin: 0;
+}
+
+/* Section Five Style */ 
+.sponser-section{
+    margin-top: 50px;
+    display: flex;
+    gap: 120px;
+}
+.spn-box img{ 
+    width: 166px;
+    height: 50px;
+}
