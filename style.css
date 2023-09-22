@@ -162,6 +162,9 @@ header {
     padding: 30px;
     box-shadow: 0 4px 10px 0 rgba(226, 226, 226, 0.2), 0 6px 10px 0 rgba(180, 180, 180, 0.19);
 }
+.features-cart h3{
+    color: #666565;
+}
 
 .img-section img {
     margin-left: 80px;
