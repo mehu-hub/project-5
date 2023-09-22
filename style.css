@@ -1,0 +1,113 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+body {
+    font-family: 'Work Sans', sans-serif;
+     margin: 0;
+     padding: 0;
+     height: 4760px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.btn-primary {
+    margin-top: 30px;
+    border-style: none;
+    width: 170px;
+    height: 60px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    background: #FF900E;
+    color: white;
+}
+
+/* header style  */
+header {
+    background: rgba(255, 144, 14, 0.10);   
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    cursor: pointer;
+    font-size: 45px;
+}
+
+.nav-items ul {
+    display: flex;
+    list-style: none;
+}
+
+.nav-items ul li {
+    cursor: pointer;
+    font-size: 18px;
+    margin-right: 40px;
+}
+
+/* --------------------- */
+.section-one {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.header-title {
+    margin: 0;
+    font-size: 65px;
+}
+
+.header-slogan {
+    margin-top: 30px;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.header-banner {
+    padding-top: 70px;
+    padding-bottom: 45px;
+}
+
+/* Section two Styles */
+.section-two{
+    margin-top: 85px;
+}
+ .quick-list-section{ 
+    align-items: center; 
+    gap: 80px;
+    display: flex;
+    margin: 0px auto;
+ }
+ .img-group{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+ }
+ .img-group img{
+
+    margin: 5px;
+ }
+ .quick-item h4{
+    margin: 0;
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 45px;
+ }
+ .quick-list{
+    font-weight: normal;
+    color: #727272;
+ }
+ .features{
+    color: #FF900E;
+ }
+ .quick-item p{
+    margin: 0;
+    font-size: 16px;
+    line-height: 25px;
+    color: #727272;
+ }
