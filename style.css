@@ -125,15 +125,18 @@ header {
 .section-three {
     margin-top: 130px;
 }
-.title-box{
+
+.title-box {
     margin-right: 20px;
     width: 5px;
     height: 100px;
     background: #FF900E;
 }
-.three-title{
+
+.three-title {
     display: flex;
 }
+
 .features-section {
     display: flex;
     gap: 100px;
@@ -141,9 +144,10 @@ header {
 
 .features-text-side h2 {
     font-size: 45px;
-    margin: 0; 
+    margin: 0;
 }
-.f-p{
+
+.f-p {
     font-weight: 600;
 }
 
@@ -158,7 +162,8 @@ header {
     padding: 30px;
     box-shadow: 0 4px 10px 0 rgba(226, 226, 226, 0.2), 0 6px 10px 0 rgba(180, 180, 180, 0.19);
 }
-.img-section img{
+
+.img-section img {
     margin-left: 80px;
 }
 
@@ -177,7 +182,7 @@ header {
 .img-bottom-box {
     position: relative;
     margin-top: -120px;
-    z-index: 1;  
+    z-index: 1;
 }
 
 .ten {
@@ -195,62 +200,88 @@ header {
 }
 
 /* Section Four Syles */
-.some-facts{ 
+.some-facts {
     text-align: center;
-    margin-top: 150px; 
+    margin-top: 150px;
 }
-.some-facts h2{
+
+.some-facts h2 {
     font-size: 45px;
     margin: 0;
 }
-.some-facts p{
+
+.some-facts p {
     font-size: 16px;
     color: #727272;
 }
 
-.section-four{
+.section-four {
     margin-top: 100px;
 }
 
-.facts-section{
+.facts-section {
     display: flex;
     gap: 125px;
 
 }
-.fact-box{ 
+
+.fact-box {
     border-radius: 5px;
     gap: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
     width: 240px;
     height: 240px;
     border: 2px solid orange;
 }
-.fact-img{
+
+.fact-img {
     text-align: center;
     width: 45px;
     height: 45px;
 }
-.number{
+
+.number {
     font-size: 45px;
     font-weight: 500;
     margin: 0;
 }
-.title{
+
+.title {
     font-size: 20px;
     color: #727272;
     margin: 0;
 }
 
-/* Section Five Style */ 
-.sponser-section{
+/* Section Five Style */
+.sponser-section {
     margin-top: 50px;
     display: flex;
     gap: 120px;
 }
-.spn-box img{ 
+
+.spn-box img {
     width: 166px;
     height: 50px;
+}
+
+/* footer */
+.footer {
+    margin-top: 130px; 
+} 
+.footer div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1440px;
+    height: 100px;
+    border-radius: 8px;
+    background: #FFF4E7;
+}
+.copyright p > a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #FF900E;
 }

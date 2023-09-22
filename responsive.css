@@ -85,4 +85,29 @@
     .exp{
         font-size: 20px;
     }
+
+    /* Section Four */
+    .some-facts h2{
+        font-size: 35px;
+    }
+    .some-facts p{
+        padding: 0 20px;
+    }
+    .section-four{
+        margin-top: 20px;
+    }
+    .facts-section{
+        flex-direction: column;
+        gap: 20px;
+    }
+    /* Section Five */
+    .sponser-section{
+        margin-top: 40px;
+        flex-direction: column;
+        gap: 50px;
+    }
+    /* footer */
+    .footer div{
+        width: 100%;
+    }
 }
