@@ -1,40 +1,88 @@
 @media only screen and (max-width: 588px) {
-    .navbar{
+    .navbar {
         flex-direction: column;
     }
-    .logo{
+
+    .logo {
         font-size: 35px;
     }
-    .nav-items ul{
+
+    .nav-items ul {
         text-align: center;
         gap: 20px;
         font-weight: 500;
         flex-direction: column;
     }
-    .section-one{
+
+    .section-one {
         margin-top: 50px;
     }
-    .header-title{
+
+    .header-title {
         font-size: 50px;
     }
-    .br{
+
+    .br {
         display: none;
     }
-    .header-banner img{
+
+    .header-banner img {
         width: 100%;
     }
-    .header-banner{
+
+    .header-banner {
         padding-bottom: 0;
     }
 
     /* Section Two */
-    .quick-list-section{
+    .quick-list-section {
         flex-direction: column-reverse;
     }
-    .img-group{
+
+    .img-group {
         grid-template-columns: repeat(1, 1fr);
     }
-    .quick-item{
+
+    .quick-item {
         padding: 20px;
+    }
+
+    /* Section Three */
+    .features-section {
+        gap: 0;
+        flex-direction: column;
+    }
+
+    .title-box {
+        margin-left: 20px;
+        height: 80px;
+    }
+
+    .f-p {
+        margin: 0;
+        padding: 20px;
+    }
+
+    .features-text-side h2 {
+        font-size: 35px;
+    }
+
+    .img-section img {
+        margin-left: 0;
+        width: 100%;
+    } 
+    .img-bottom-box {
+        border-radius: 0;
+        position: relative;
+        z-index: 1;
+        margin-top: -100px;
+        width: 150px;
+        height: 100px;
+    }
+    .ten{
+        font-size: 25px;
+    }
+    .exp{
+        font-size: 20px;
     }
 }
